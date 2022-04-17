@@ -1,0 +1,89 @@
+.myh1{
+    color: red;
+}
+
+.clientForm{
+    background: linear-gradient(320deg, rgba(255, 255, 255, 0.338),white);
+    width: 100%;
+    padding: 10px;
+    height: 405px;
+}
+
+.leftCol{
+    box-shadow: 5px 5px 5px #888888;
+    border: 1px solid solid rgb(202, 202, 202);
+}
+.rightCol{
+    background: linear-gradient(320deg, rgba(255, 255, 255, 0.338),white);
+    box-shadow: 5px 5px 5px #888888;
+    border: 1px solid solid rgb(202, 202, 202);
+    /* padding: 10px; */
+    height: 455px;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;    /* Firefox */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.rightCol::-webkit-scrollbar {
+    display: none;
+}
+
+.form-control {
+    /* margin: auto !important; */
+	outline: none !important;
+	border: none !important;
+    padding: 10px !important;
+    border-bottom: 1px solid rgb(202, 202, 202) !important;
+    border-radius: 3px !important;
+    margin-bottom: 15px !important;
+    /* width: 95% !important; */
+}
+
+.custom-select{
+    /* margin: auto !important; */
+    outline: none !important;
+    border: none !important;
+    border-bottom: 1px solid rgb(202, 202, 202) !important;
+    border-radius: 3px !important;
+    margin-bottom: 15px !important;
+    /* width: 95% !important; */
+}
+
+.dataTables_wrapper {
+    padding: 15px !important;
+}
+
+#formTitle{
+    background-color: #424242;
+    color: white;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: x-large;
+}
+#titleIcon{
+    padding: 0;
+}
+#titleText{
+    padding: 0; 
+}
+
+
+.dataTables_wrapper .dataTables_info{
+    font-size: small !important;
+    padding-top: 17px !important;
+}
+.dataTables_wrapper .dataTables_paginate{
+    font-size: small !important;
+    padding-top: 10px !important;
+}
+.dataTables_wrapper .dataTables_filter{
+    font-size: small !important;
+}
+.dataTables_wrapper .dataTables_length{
+    font-size: small !important;
+}
